@@ -11,7 +11,7 @@ I worked with MS Schannel, SSPI, and CryptoAPI for many years and familiar with 
 
 I found many examples of using OpenSSL 1xx and earlier on the Internet. But since the main requirement was to use the latest version 3.0, I have to use the official documentation https://www.openssl.org/docs/man3.0/man3/ and debug the code in a test Delphi app.
 The other resources were helped me a lot to get started. Many thanks to the authors:
-[Using OpenSSL with memory BIOs](https://www.roxlu.com/2014/042/using-openssl-with-memory-bios),
+[Using OpenSSL with memory BIOs](https://www.roxlu.com/2014/042/using-openssl-with-memory-bios),   
 [Getting started with OpenSSL: Cryptography basics](https://opensource.com/article/19/6/cryptography-basics-openssl-part-1) and many others.   
 
 The code might look a bit superflow and have some unnecessary function calls. This is because I needed to test the OpenSSL behavior for the purposes of our Delphi components. Please check out the comments in the sources for more details.   
