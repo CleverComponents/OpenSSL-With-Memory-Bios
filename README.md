@@ -10,7 +10,7 @@ The main our task was to implement a cross-platform version of our Delphi compon
 I worked with MS Schannel, SSPI, and CryptoAPI for many years and familiar with many tricks, problems, and use-cases. But OpenSSL become a real challenge for me. I know anough about SSL/TLS internals, and this helped me a lot.
 
 I found many examples of using OpenSSL 1xx and earlier on the Internet. But since the main requirement was to use the latest version 3.0, I have to use the official documentation https://www.openssl.org/docs/man3.0/man3/ and debug the code in a test Delphi app.
-The other resources were helped me a lot to get started. Many thanks to the authors:
+The other resources were helped me a lot to get started. Many thanks to the authors:   
 [Using OpenSSL with memory BIOs](https://www.roxlu.com/2014/042/using-openssl-with-memory-bios),   
 [Getting started with OpenSSL: Cryptography basics](https://opensource.com/article/19/6/cryptography-basics-openssl-part-1) and many others.   
 
